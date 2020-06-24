@@ -29,7 +29,7 @@
 
 			if(password_verify($password, $hash)) {
 				// User is signed in
-				$return['redirect'] = '/PHP-Login-System/dashboard.php';
+				$return['redirect'] = '/dashboard.php';
 
 				$_SESSION['user_id'] = $user_id;
 			} else {
